@@ -1,0 +1,18 @@
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\bin\Release\IMSS Device Driver Manager.exe.config
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\bin\Release\IMSS Device Driver Manager.exe
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\bin\Release\IMSS Device Driver Manager.pdb
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\bin\Release\IMSS Device Driver Manager.xml
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\bin\Release\IMSS_Multiuse.dll
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\bin\Release\IMSS_Multiuse.pdb
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\bin\Release\IMSS_Multiuse.xml
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\IMSS_Device_Driver_Manager.IMSS_BACKUPDRIVERS.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\IMSS_Device_Driver_Manager.IMSS_MANGEDRIVERS.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\IMSS_Device_Driver_Manager.IMSS_RESTORBACKUP.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\IMSS_Device_Driver_Manager.MainWindow.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\IMSS_Device_Driver_Manager.Resources.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\IMSS Device Driver Manager.exe
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\IMSS Device Driver Manager.xml
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Device Driver Manager\IMSS Device Driver Manager\obj\x86\Release\IMSS Device Driver Manager.pdb

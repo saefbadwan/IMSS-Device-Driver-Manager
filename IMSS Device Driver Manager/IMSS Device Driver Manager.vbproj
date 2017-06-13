@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20C2407D-219B-4B9E-AE09-B9EB2E8C1122}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>IMSS_Device_Driver_Manager.My.MyApplication</StartupObject>
+    <RootNamespace>IMSS_Device_Driver_Manager</RootNamespace>
+    <AssemblyName>IMSS Device Driver Manager</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>IMSS Device Driver Manager.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>IMSS Device Driver Manager.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>_IMSS_MAIN_DEVICEMANAGER_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.4.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="IMSS_Multiuse">
+      <HintPath>..\..\IMSS_Multiuse\IMSS_Multiuse\bin\Release\IMSS_Multiuse.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="IMSS_CLASSES\INIFiles.vb" />
+    <Compile Include="IMSS_USER_CONTROL\IMSS_BACKUPDRIVERS.Designer.vb">
+      <DependentUpon>IMSS_BACKUPDRIVERS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMSS_USER_CONTROL\IMSS_BACKUPDRIVERS.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IMSS_USER_CONTROL\IMSS_MANGEDRIVERS.Designer.vb">
+      <DependentUpon>IMSS_MANGEDRIVERS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMSS_USER_CONTROL\IMSS_MANGEDRIVERS.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IMSS_USER_CONTROL\IMSS_RESTORBACKUP.Designer.vb">
+      <DependentUpon>IMSS_RESTORBACKUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMSS_USER_CONTROL\IMSS_RESTORBACKUP.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.vb">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IMSS_USER_CONTROL\IMSS_BACKUPDRIVERS.resx">
+      <DependentUpon>IMSS_BACKUPDRIVERS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMSS_USER_CONTROL\IMSS_MANGEDRIVERS.resx">
+      <DependentUpon>IMSS_MANGEDRIVERS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMSS_USER_CONTROL\IMSS_RESTORBACKUP.resx">
+      <DependentUpon>IMSS_RESTORBACKUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_IMSS_SELECBACKUPFILE_Icon_256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_IMSS_SELECBACKUPFILE_OnMouseDown_Icon_256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_IMSS_SELECBACKUPFILE_OnMuseOver_Icon_256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_IMSS_MAIN_DEVICEMANAGER_Icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
